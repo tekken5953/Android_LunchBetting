@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relatylayout"
+    android:background="@drawable/backgroundmain"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="LunchBetting"
+        android:textColor="#f89b00"
+        android:textSize="20dp"
+        app:fontFamily="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bar"
+        android:layout_marginTop="125dp"
+        android:id="@+id/bar2"
+        android:gravity="center"
+        android:text="오 늘 은 누 가 쏴 ?"
+        android:textSize="45dp"
+        android:textColor="#f89b00"
+        app:fontFamily="sans-serif-black" />
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scaleX="2.7"
+        android:scaleY="2.3"
+        android:text="게 임 시 작"
+        android:textColor="#f89b00"
+        android:textSize="11dp"
+        android:background="#00ff0000"
+        app:fontFamily="sans-serif-light"/>
+
+    <Button
+        android:id="@+id/stackbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-103dp"
+        android:scaleX="2.7"
+        android:scaleY="2.3"
+        android:text="결 과 기 록"
+        android:textSize="11dp"
+        android:background="#00ff0000"
+        android:textColor="#f89b00"
+        app:fontFamily="sans-serif-light" />
+
+</RelativeLayout>
+
